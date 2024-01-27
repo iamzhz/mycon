@@ -4,7 +4,7 @@
 以下内容任选其一, 并非执行循序.  
 ### 1.编译为.o目标文件
 ```
-gcc mycon.c -o mycon.o -lwinmm
+gcc -c mycon.c -o mycon.o -lwinmm
 ```
 因为本库中的`play_sound()`函数使用了`PlaySoundA()`, 故要链接上`winmm`.  
 ### 2.编译为.a静态库
