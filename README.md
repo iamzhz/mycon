@@ -24,7 +24,10 @@ gcc demo.c mycon.c -o demo.exe -lwinmm
 ```  
 --------
 
-注意任何使用了该库的程序, 都要在头文件包含`mycon.h`, 并将`mycon.h`复制到该程序目录下.
+注意任何使用了该库的程序, 都要在头文件包含`mycon.h`, 并将`mycon.h`复制到该程序目录下.  
+``` c
+#include "mycon.h"
+```
 ## :chestnut: 栗子
 [iamzhz/TypingPractice](https://github.com/iamzhz/TypingPractice)
 ## :link: 附--该库中的所有函数
