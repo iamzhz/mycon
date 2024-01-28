@@ -29,7 +29,8 @@ gcc demo.c mycon.c -o demo.exe -lwinmm
 #include "mycon.h"
 ```
 ## :chestnut: 栗子
-[iamzhz/TypingPractice](https://github.com/iamzhz/TypingPractice)
+[iamzhz/TypingPractice](https://github.com/iamzhz/TypingPractice)  
+[iamzhz/hex](https://github.com/iamzhz/hex)
 ## :link: 附--该库中的所有函数
 ``` c
 //改变控制台窗口大小为width宽，height高
