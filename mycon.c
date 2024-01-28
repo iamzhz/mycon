@@ -62,9 +62,8 @@ void cls(void) {
     system("cls");
 }
 int getkey(void) {
-  int ch;
-  ch = getch();
-  if ( !ch || ch == 224 )
+    int ch;
     ch = getch();
-  return ch;
+    if ( !ch || ch == 224 ) ch = getch();
+    return ch;
 }
