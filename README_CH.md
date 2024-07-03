@@ -1,4 +1,5 @@
 # mycon
+[English](./README.md) 简体中文
 反编译后的书籍《C语言从入门到项目实战》中的mycon库
 ## :wrench: build
 ### 1. 编译为.o目标文件
